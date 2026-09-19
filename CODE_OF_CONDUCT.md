@@ -29,7 +29,7 @@ Maintainers may edit or remove contributions, lock discussions, reject pull
 requests, or restrict participation when necessary to protect the community.
 
 Report conduct concerns to the repository owner using the contact information
-on the [maintainer's GitHub profile](https://github.com/MVMC4). If no private
+on the [maintainer's GitHub profile](https://github.com/MooketsiMagwaza). If no private
 contact method is available, open a minimal issue requesting private contact
 without including sensitive details.
 

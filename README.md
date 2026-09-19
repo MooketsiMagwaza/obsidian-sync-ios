@@ -1,7 +1,7 @@
 # Obsidian Sync for iOS
 
-[![Core checks](https://github.com/MVMC4/obsidian-sync-ios/actions/workflows/core.yml/badge.svg)](https://github.com/MVMC4/obsidian-sync-ios/actions/workflows/core.yml)
-[![iOS checks](https://github.com/MVMC4/obsidian-sync-ios/actions/workflows/framework.yml/badge.svg)](https://github.com/MVMC4/obsidian-sync-ios/actions/workflows/framework.yml)
+[![Core checks](https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/workflows/core.yml/badge.svg)](https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/workflows/core.yml)
+[![iOS checks](https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/workflows/framework.yml/badge.svg)](https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/workflows/framework.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 A focused iPad/iPhone companion that joins an existing Syncthing cluster and

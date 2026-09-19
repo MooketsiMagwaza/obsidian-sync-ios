@@ -12,13 +12,13 @@ Local repository:
 C:\Users\Nido\Desktop\Projects\Active\obsidian-sync-ios
 
 Public GitHub repository:
-https://github.com/MVMC4/obsidian-sync-ios
+https://github.com/MooketsiMagwaza/obsidian-sync-ios
 
 Git branch:
 main
 
 GitHub account:
-MVMC4
+MooketsiMagwaza
 
 GitHub CLI executable on this Windows machine:
 C:\Users\Nido\AppData\Local\Microsoft\WinGet\Packages\GitHub.cli_Microsoft.Winget.Source_8wekyb3d8bbwe\bin\gh.exe

@@ -80,7 +80,7 @@ func newSyncthingEngineWithOptions(
 
 	configureBuildMetadataOnce.Do(func() {
 		build.Version = embeddedSyncthingVersion
-		build.Host = "github.com/MVMC4"
+		build.Host = "github.com/MooketsiMagwaza"
 		build.User = "obsidian-sync-ios"
 	})
 

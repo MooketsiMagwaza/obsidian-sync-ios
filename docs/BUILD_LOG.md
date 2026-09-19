@@ -33,7 +33,7 @@ will remain attached to their corresponding workflow runs.
 - Workflow: `Core checks`
 - Result: passed in 28 seconds
 - Verified: checkout, Go setup, formatting, vet, race-enabled tests, and coverage
-- Run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30691040646
+- Run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30691040646
 
 ## 2026-08-01 — Real Syncthing adapter
 
@@ -56,7 +56,7 @@ will remain attached to their corresponding workflow runs.
 - Result: passed in 2 minutes 15 seconds
 - Verified from a clean Ubuntu runner: formatting, vet, real engine lifecycle,
   race detector, and coverage
-- Run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30691765411
+- Run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30691765411
 
 ## 2026-08-01 — Peer and vault configuration slice
 
@@ -75,7 +75,7 @@ will remain attached to their corresponding workflow runs.
 - Finding: the upstream QUIC/STUN service raced during shutdown; the config
   wrapper also attempted its deferred save after the test state directory was
   released
-- Run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30691951625
+- Run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30691951625
 
 ## 2026-08-01 — Deterministic engine shutdown
 
@@ -88,7 +88,7 @@ will remain attached to their corresponding workflow runs.
   cycles
 - Verified remotely: format, vet, race detector, real engine integration, and
   coverage
-- Run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30692178161
+- Run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30692178161
 
 ## 2026-08-01 — Native vault-access spike
 
@@ -98,7 +98,7 @@ will remain attached to their corresponding workflow runs.
 - Revision: `3697dbc`
 - Result: generated the Xcode project and compiled the unsigned native app in 30
   seconds
-- Run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30692412836
+- Run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30692412836
 
 ### Initial test-host failure
 
@@ -106,7 +106,7 @@ will remain attached to their corresponding workflow runs.
 - Result: app compilation passed, but tests did not launch
 - Finding: a custom internal product name disagreed with XcodeGen's generated
   unit-test host path
-- Run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30692454987
+- Run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30692454987
 
 ### Clean Simulator build and test
 
@@ -114,7 +114,7 @@ will remain attached to their corresponding workflow runs.
 - Result: passed in 2 minutes 31 seconds
 - Verified: project generation, unsigned app compilation, app installation into
   an iPad Pro 11-inch (M4) Simulator, and native unit tests
-- Run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30692783055
+- Run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30692783055
 
 ## 2026-08-01 — Embedded iOS framework
 
@@ -124,7 +124,7 @@ will remain attached to their corresponding workflow runs.
 - Result: failed before cross-compilation
 - Finding: Go 1.25 requires `gobind` to be retained as a `go.mod` tool
   dependency for `gomobile bind`
-- Run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30692983981
+- Run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30692983981
 
 ### XCFramework build
 
@@ -133,7 +133,7 @@ will remain attached to their corresponding workflow runs.
 - Result: passed in 2 minutes 26 seconds
 - Verified: real Syncthing facade cross-compiled for iOS device and Simulator
   slices; framework artifact uploaded for seven days
-- Run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30693062923
+- Run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30693062923
 
 ### Swift bridge integration
 
@@ -144,7 +144,7 @@ will remain attached to their corresponding workflow runs.
 - Verified: XCFramework generation, Swift import and linking, unsigned app
   compile, iPad Pro Simulator installation, native unit tests, persistent
   Syncthing device identity, and engine start/stop through Swift
-- Run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30694852522
+- Run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30694852522
 
 ## 2026-08-01 — Manual sync-session slice
 
@@ -154,7 +154,7 @@ will remain attached to their corresponding workflow runs.
 - Ubuntu core workflow: passed with race detection
 - Verified: folder state, peer connection, local and remote need counts,
   completion percentages, JSON schema, and conservative up-to-date policy
-- Run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30695135505
+- Run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30695135505
 
 ### Swift status bridge correction
 
@@ -163,7 +163,7 @@ will remain attached to their corresponding workflow runs.
   an explicit `NSError` pointer
 - Corrected revision: `af3935c`
 - Result: full iOS workflow passed in 4 minutes 30 seconds
-- Run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30695410985
+- Run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30695410985
 
 ### Functional dashboard
 
@@ -171,7 +171,7 @@ will remain attached to their corresponding workflow runs.
 - Result: full iOS workflow passed in 3 minutes 33 seconds
 - Verified: XCFramework, generated Xcode project, linked app, dashboard compile,
   Simulator installation, session/profile tests, and uploaded framework artifact
-- Run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30695630517
+- Run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30695630517
 
 ## 2026-08-01 — Physical-readiness hardening
 
@@ -183,7 +183,7 @@ will remain attached to their corresponding workflow runs.
 - Verified: linked compile, two real embedded lifecycle cycles, session cleanup,
   conflict scanning and result capping, Simulator installation, all prior tests,
   and XCFramework artifact upload
-- Run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30695851603
+- Run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30695851603
 
 ## 2026-08-01 — Bidirectional protocol transfer verification
 
@@ -195,7 +195,7 @@ will remain attached to their corresponding workflow runs.
 - Verified: two independent embedded Syncthing processes, isolated identities
   and state, explicit TCP pairing, exact-content transfer in both directions,
   orderly cleanup, race detector, and 77.0% statement coverage
-- Run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30696198329
+- Run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30696198329
 
 ### iOS regression
 
@@ -205,7 +205,7 @@ will remain attached to their corresponding workflow runs.
 - Verified: XCFramework generation, Xcode project generation, linked app
   compilation, complete native test suite on an iPad Simulator, framework slice
   inspection, and artifact upload
-- Run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30696198311
+- Run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30696198311
 
 ## 2026-08-01 — Redacted diagnostics export
 
@@ -215,7 +215,7 @@ will remain attached to their corresponding workflow runs.
 - Result: the XCFramework built, but Swift compilation failed
 - Finding: a main-actor-isolated no-op recorder was constructed in a default
   argument, which Swift evaluates outside the initializer's actor context
-- Run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30696657930
+- Run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30696657930
 
 ### Corrected native build
 
@@ -226,9 +226,9 @@ will remain attached to their corresponding workflow runs.
 - Verified: XCFramework generation, generated Xcode project, linked app compile,
   all native tests on an iPad Simulator, framework inspection, and artifact
   upload
-- iOS run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30696817304
+- iOS run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30696817304
 - Ubuntu core checks: passed in 2 minutes 29 seconds
-- Core run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30696817294
+- Core run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30696817294
 
 ## 2026-08-01 — Checksum-validated QR pairing
 
@@ -249,10 +249,10 @@ will remain attached to their corresponding workflow runs.
 - Verified: QR rendering, scanner UI compilation, camera privacy declaration,
   parser behavior, upstream check-digit validation through the generated bridge,
   all prior Simulator tests, framework inspection, and artifact upload
-- iOS run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30697329481
+- iOS run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30697329481
 - Core result: failed in the two-process test because the helper requested its
   first scan after configuration commit but before the folder service was ready
-- Core run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30697329485
+- Core run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30697329485
 
 ### Fully green correction
 
@@ -261,9 +261,9 @@ will remain attached to their corresponding workflow runs.
   with a focused test proving transient failures are retried
 - Ubuntu core result: passed in 2 minutes 25 seconds with race detection and
   77.4% statement coverage
-- Core run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30697607940
+- Core run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30697607940
 - iOS result: passed in 6 minutes 37 seconds
-- iOS run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30697607944
+- iOS run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30697607944
 
 ## 2026-08-01 — Completed interface and activity identity correction
 
@@ -275,10 +275,10 @@ will remain attached to their corresponding workflow runs.
 - Local race detector: unavailable because CGO is disabled; retained in the
   Ubuntu workflow
 - Ubuntu Core checks: passed with the race detector
-- Core run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30710848626
+- Core run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30710848626
 - macOS iOS checks: passed; the XCFramework and Xcode project were generated,
   the linked app compiled, and the native suite ran on an iPad Simulator
-- iOS run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30710848621
+- iOS run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30710848621
 - Physical-device build and signing: not run; this remains the next gate
 
 ## 2026-08-01 — First-run transparency device build
@@ -287,7 +287,7 @@ will remain attached to their corresponding workflow runs.
 - Core checks: passed
 - iOS application compile and iPad Simulator tests: passed
 - Unsigned arm64 physical-device IPA packaging: passed
-- iOS run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30717953961
+- iOS run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30717953961
 - Artifact: `ObsidianSync-unsigned-device-ipa`, retained through 2026-08-08
 - Downloaded artifact archive SHA-256:
   `4f74e233c9417c482781669ce497d10505adb7714fb721f69c05d078095a2db1`
