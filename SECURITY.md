@@ -14,7 +14,7 @@ address, vault content, or unredacted diagnostic report in a public issue.
 Use GitHub's private vulnerability reporting option on the repository Security
 page when it is available. Otherwise, contact the repository owner through the
 contact method listed on the
-[maintainer's GitHub profile](https://github.com/MVMC4). If no private channel
+[maintainer's GitHub profile](https://github.com/MooketsiMagwaza). If no private channel
 is listed, open a minimal issue asking the maintainer to establish private
 contact; do not include the vulnerability details in that issue.
 

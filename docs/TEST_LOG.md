@@ -35,7 +35,7 @@ not exist.
 - `go vet ./...`: passed
 - `go test -race -coverprofile=coverage.out ./...`: passed
 - Statement coverage: 74.2%
-- Run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30691040646
+- Run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30691040646
 
 ## 2026-08-01 — Real Syncthing adapter tests
 
@@ -50,7 +50,7 @@ not exist.
   toolchain; race-enabled verification is delegated to GitHub Actions on Ubuntu
 - Remote `go test -tags noassets -race -coverprofile=coverage.out ./...`: passed
 - Remote statement coverage: 74.3%
-- Run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30691765411
+- Run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30691765411
 
 ## 2026-08-01 — Peer and vault configuration tests
 
@@ -65,7 +65,7 @@ not exist.
 - `go test -tags noassets -count=5 ./...`: passed locally
 - Local statement coverage after remediation: 76.9%
 - Remote `go test -tags noassets -race -coverprofile=coverage.out ./...`: passed
-- Passing run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30692178161
+- Passing run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30692178161
 
 ## 2026-08-01 — Native vault-access spike tests
 
@@ -78,7 +78,7 @@ not exist.
 - The first test attempt did not launch because the generated test-host product
   path was inconsistent; app compilation passed in that run
 - Corrected run: passed in 2 minutes 31 seconds
-- Run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30692783055
+- Run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30692783055
 - Physical iPad folder-picker, relaunch, permission revocation, and Obsidian
   visibility tests: not run
 
@@ -91,7 +91,7 @@ not exist.
   certificate/device identity generation, Swift-to-Go lifecycle calls, running
   state, orderly shutdown, and stopped state
 - Full linked iOS workflow: passed in 3 minutes 56 seconds
-- Run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30694852522
+- Run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30694852522
 - Physical iPad engine lifecycle and networking: not run
 
 ## 2026-08-01 — Manual sync-session tests
@@ -106,7 +106,7 @@ not exist.
   and exactly-once vault release after success or failure
 - Native dashboard and all prior Swift tests: passed on iPad Pro 11-inch (M4)
   Simulator with iOS 18.5 and Xcode 16.4
-- Run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30695630517
+- Run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30695630517
 - Real desktop-to-iPad transfer, conflict, interruption, and Obsidian visibility:
   not run; these remain physical-device gates
 
@@ -119,7 +119,7 @@ not exist.
 - `VaultConflictScannerTests`: relative-path detection, ordinary-file exclusion,
   deterministic sorting, and result cap passed
 - All native tests passed on iPad Pro 11-inch (M4) Simulator with iOS 18.5
-- Run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30695851603
+- Run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30695851603
 - Local Network permission prompt and actual LAN traffic: not testable in this
   automation and still require the physical checklist
 
@@ -138,9 +138,9 @@ not exist.
   traversal disabled only for the integration nodes
 - `go test -tags noassets -race -coverprofile=coverage.out ./...`: passed
 - Statement coverage: 77.0%
-- Core run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30696198329
+- Core run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30696198329
 - Full linked iOS Simulator regression: passed
-- iOS run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30696198311
+- iOS run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30696198311
 - Still not proven by automation: security-scoped access to Obsidian's physical
   iPad folder, the Local Network permission prompt, real Wi-Fi conditions,
   background interruption, and Obsidian visibility after transfer
@@ -160,7 +160,7 @@ not exist.
   normalization, and omission of device IDs, peer names, addresses, folder IDs,
   labels, and filesystem paths
 - Full iPad Simulator suite: passed
-- iOS run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30696817304
+- iOS run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30696817304
 - Physical share-sheet behavior and inspection of a report produced after a
   real device session: not run; added to the physical verification gate
 
@@ -180,9 +180,9 @@ not exist.
 - `TestScanWhenFolderReadyRetriesTransientFailure`: passed
 - Corrected two-process bidirectional transfer: passed under the race detector
 - Statement coverage: 77.4%
-- Core run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30697607940
+- Core run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30697607940
 - Full linked iPad Simulator suite: passed
-- iOS run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30697607944
+- iOS run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30697607944
 - Physical camera authorization, live capture, desktop scanning of the iPad QR,
   and iPad scanning of the desktop QR: not run; added to the physical checklist
 
@@ -197,9 +197,9 @@ not exist.
 - Local `go test -tags noassets -count=1 -coverprofile coverage.out ./...`:
   passed with 79.6% statement coverage
 - Ubuntu Core checks, including `-race`: passed
-- Core run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30710848626
+- Core run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30710848626
 - Full linked app build and native test suite on an iPad Simulator: passed
-- iOS run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30710848621
+- iOS run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30710848621
 - Physical iPad folder access, camera, LAN transfer, Obsidian visibility, and
   signing: not run and not represented by the Simulator result
 
@@ -208,10 +208,10 @@ not exist.
 - Revision: `67afc03`
 - Ubuntu Core checks: passed, including formatting, vet, unit/integration tests,
   coverage, and race detection
-- Core run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30717953959
+- Core run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30717953959
 - macOS iOS checks: passed; the linked application compiled and the complete
   native Swift suite ran on an iPad Simulator
-- iOS run: https://github.com/MVMC4/obsidian-sync-ios/actions/runs/30717953961
+- iOS run: https://github.com/MooketsiMagwaza/obsidian-sync-ios/actions/runs/30717953961
 - Added coverage proving that a newly configured folder's transient scan
   readiness failures are retried before the session is failed
 - Added recovery coverage proving that an unreachable peer remains actionable

@@ -1,4 +1,4 @@
-module github.com/MVMC4/obsidian-sync-ios/core
+module github.com/MooketsiMagwaza/obsidian-sync-ios/core
 
 go 1.25.0
 
